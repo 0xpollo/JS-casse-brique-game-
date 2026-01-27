@@ -24,7 +24,7 @@ canvas {
     background: blue;
     position: relative;
     left: 30%;
-    top: 14%;
+    top: 10%;
     height: 6vh;
     width: 13vh;
     border-radius: 15px;
@@ -47,7 +47,7 @@ canvas {
     background: blue;
     position: relative;
     left: 60%;
-    top: 7.5%;
+    top: 3%;
     height: 6vh;
     width: 20vh;
     border-radius: 15px;

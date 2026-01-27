@@ -7,8 +7,8 @@ const ctx = canvas.getContext("2d");
 let x = canvas.width / 2;
 let y = canvas.height - 30;
     //deplacement
-let dx = 2;
-let dy = -2;
+let dx = 2.5;
+let dy = -2.5;
     //rayon de la balle
 let ballRadius = 10;
     //taille et placement de la 'raquette'
@@ -244,12 +244,12 @@ function draw () {
 
     // Deplacement de la raquette de gauche a droite a l'aide des touches  ==> possiblite de reduire le code 
     if (rightPressed) {
-    paddleX += 3; 
+    paddleX += 10; 
     if (paddleX + paddleWidth > canvas.width) {
         paddleX = canvas.width - paddleWidth;
     }
     } else if (leftPressed) {
-        paddleX -= 3;
+        paddleX -= 10;
         if (paddleX < 0) {
             paddleX = 0;
         }
